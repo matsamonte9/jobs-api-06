@@ -36,7 +36,7 @@ app.use(express.json());
 
 // Dummy Route for Checking if deployed
 
-app.get('/', (req, res) => res.send('jobs api'));
+app.get('/', (req, res) => res.send('inaka pao kupal'));
 
 // Routes
 app.use('/api/v1/auth', authRouter);
